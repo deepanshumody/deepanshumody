@@ -1,11 +1,10 @@
 # Hi, I'm Deepanshu 👋
 
-### Machine Learning Research Engineer · NYU MS Data Science '26
+### NYU MS Data Science '26
 
-ML research engineer focused on LLMs — research on refusal robustness, interpretability,
-and tokenizer efficiency — who also builds and owns the production side: real-time
-retrieval and ranking, multi-agent pipelines, and inference tuned for latency, cost,
-and safety. A researcher who ships.
+Ranking methodology, probability calibration, and evaluation design on messy real-world data.
+On the systems side: real-time retrieval and ranking, multi-agent pipelines, and inference tuned
+for latency and cost, grounded by research in LLM safety and tokenization.
 
 📍 New York, NY  ·  🌐 [deepanshumody.com](https://deepanshumody.com)
 
@@ -13,9 +12,9 @@ and safety. A researcher who ships.
 
 ## 🔧 What I work on
 
-- **Production LLM systems** — RAG, retrieval & ranking services, multi-agent pipelines, and real-time inference, built to hold accuracy under latency, cost, and safety constraints.
-- **Applied ML & modeling** — LLM fine-tuning & post-training, survival/risk modeling, and graph learning, with rigorous evaluation on imbalanced, out-of-distribution data.
-- **Safety, evaluation & research** — model safety and robustness, interpretability, and evaluation harnesses, with research on refusal robustness and tokenization.
+- **Applied modeling & experimentation** — Bradley-Terry ranking with bootstrap confidence intervals, probability calibration, survival/risk modeling, and evaluation design on imbalanced, out-of-distribution data.
+- **ML systems & retrieval** — RAG, retrieval & ranking services, multi-agent pipelines, and real-time inference, built to hold accuracy under latency, cost, and safety constraints.
+- **LLM safety & efficiency research** — refusal robustness, tokenizer optimization, interpretability, and evaluation harnesses.
 
 ## 🚀 Featured projects
 
@@ -30,8 +29,8 @@ and safety. A researcher who ships.
 
 ## 📄 Selected research
 
+- **Joint Optimization for Greedy Longest-match Tokenization (JOLT)** — Kensho/MIT EECS, advised by Dr. Chris Tanner & Dr. Craig Schmidt; *COLM 2026 Tokshop (accepted)*. Vocabulary selection as an integer program with greedy-consistency constraints; up to 0.78% fewer tokens than BPE, closing 89.6-99.4% of the remaining compression gap. [Preprint](https://arxiv.org/abs/2607.23362)
 - **Robustness & Evaluation of Refusal in Open-Weight LLMs** — with Acey Vogelstein & Jonathan Merchan (NYU); preprint coming soon. Training-time defense raising the linear-ablation rank needed to break refusal from K=1 to K≥16, with baseline behavior preserved. [Explainer](https://deepanshumody.github.io/increasing-refusal-intervention-robustness/refusal-robustness-explainer.html) · [Code](https://github.com/deepanshumody/increasing-refusal-intervention-robustness)
-- **Optimizing a Tokenizer for Greedy Left-to-Right Inference** — Kensho/MIT EECS, advised by Dr. Chris Tanner & Dr. Craig Schmidt; *COLM 2026 (planned)*. Vocabulary selection as a mixed-integer optimization (Gurobi); −1.5% tokenization cost vs. BPE.
 - **World-Model Training & Forecasting for Robot Locomotion** — *CoRL 2026 (planned)*. Multimodal ROS2 dataset; DINOv2 / TD-JEPA encoders with GRU-RSSM dynamics; multi-horizon ADE/FDE evaluation.
 - **Validity of ML-Based COVID-19 Prediction** — *PLOS ONE (2025)*. 7 models on 195k clinical records; quantified ~20% AUROC degradation under cross-continental shift + an open-source evaluation toolkit. [Paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0316467)
 
@@ -39,7 +38,7 @@ and safety. A researcher who ships.
 
 **Living Brands AI** — Data Analyst Intern · **Pfizer** — Statistics & AI/ML Intern · **Incedo** — Data Scientist / SWE · **Kinara AI** (→ acquired by NXP) — SWE Intern
 
-Evidence-grounded biomedical QA on AWS (LangGraph, six agents, ~18K-entity / ~95K-relationship knowledge graph), real-time retrieval & ranking (top-1 41% → 84%, 92.0 token-level F1), production inference tuned across FP32→INT8 precision configurations, and a production model-monitoring system (React/TypeScript on AWS, PostgreSQL) tracking confidence distributions, category drift, and failure modes.
+Evidence-grounded biomedical QA on AWS (LangGraph, six agents, ~18K-entity / ~95K-relationship knowledge graph), real-time retrieval & ranking (top-1 41% → 84%, 92.0 token-level F1), inference tuned across FP32→INT8 precision configurations, and a model-monitoring system (React/TypeScript on AWS, PostgreSQL) tracking confidence distributions, category drift, and failure modes.
 
 ## 🛠️ Tech
 
